@@ -9,7 +9,7 @@ info: rtl8188fu support will be add to rtl8xxxu module of Linux kernel. https://
 
 `sudo apt-get install build-essential git dkms linux-headers-$(uname -r)`
 
-`git clone https://github.com/kelebek333/rtl8188fu`
+`git clone https://github.com/amrelsaqqa/rtl8188fu`
 
 `sudo dkms install ./rtl8188fu`
 
@@ -57,15 +57,6 @@ If you are using kernel 5.15 and 5.16, you must create a configuration file with
 `sudo rm -f /etc/modprobe.d/rtl8188fu.conf`
 
 
-------------------
-
-## How to install from PPA repository
-
-You can install rtl8188fu driver with following commands from PPA.
-
-for xUbuntu 16.04-18.04-20.04-21.10 / Linux Mint 18.x-19.x-20.x
-
-`sudo add-apt-repository ppa:kelebek333/kablosuz`
 
 `sudo apt-get update`
 
@@ -76,8 +67,3 @@ You can purge packages with following commands
 
 `sudo apt purge rtl8188fu-dkms`
 
-------------------
-
-## How to install (for ARM devices)
-
-https://github.com/kelebek333/rtl8188fu/tree/arm#how-to-install-for-arm-devices
